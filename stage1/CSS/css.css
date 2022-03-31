@@ -1,0 +1,24 @@
+body{margin:auto; width:400px;}
+body{background-color: gold;
+font-family:Segoe Print;
+}
+fieldset{background-color: darkkhaki;}
+a{font-family:Calibri;
+ font-size:15;
+text-decoration:none;}
+a:link, a:visited {
+  color: #8094d6; }
+a:hover, a:active {
+  color: #FF9933;}
+  h1{font-family:Copperplate Gothic Light;}
+  .BTN{font-family:Chiller;
+  font-size:18;
+  }
+
+#mg img{
+  border: solid;
+  border-style: ; 
+  width:200px;
+  border-radius: 100px;
+}
+

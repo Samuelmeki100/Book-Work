@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>jQuery Demo</title>
+	<script type="text/javascript" src="jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <a  id="name" href="http://www.nccedu.com/">NCC Education</a>
+    <a id="me" href="#">click Me</a>
+    <script>
+
+    $(document).ready(function(){
+      $("#name").click(function(event){
+        alert("Thanks for clicking that link!");
+      });
+    });   
+    
+	
+	$(document).ready(function(){
+		 $("#name").hide();
+
+
+});
+
+	$(document).ready(function(){
+		 $("#me").click(function(event){
+		 $("#name").slideDown();
+		 });
+
+
+});
+
+	
+	
+	
+    </script>
+  </body>
+</html>

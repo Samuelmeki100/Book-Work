@@ -1,0 +1,51 @@
+<html>
+<head>
+<script type="text/JavaScript">
+ ///creatiing an object
+ 
+ var andrew=new person("Andrew Meki", 19);
+	var danel=new person("Danel Meki", 13);
+ 
+ 
+ function person(name,age){
+	//this are the propats of the opject 
+	this.name=name;
+	this.age=age;
+	//go into function yrsLeft
+	this.yrsLeftUntilRetire=yrsLeft;
+ 
+ }
+	
+	function yrsLeft(){
+	
+	var numyears=65-this.age;
+	return numyears;
+	
+	}
+             
+
+</script>
+<title>Working with Objects
+</title></head>
+
+<body>
+<fieldset>
+<h1> Working with Objects
+</h1>
+ 
+<script type="text/JavaScript">
+
+
+
+document.write(danel.yrsLeftUntilRetire());
+	
+
+</script>
+
+</fieldset>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body{
+	background-color:gold;
+}
+
+#btn{
+	background-color: grey;
+	border:solid; border-color: white;
+	padding:0px;
+	border-style: ;
+	width: 150;
+	height: 150;
+	
+}
+#ft{
+	width: 100px;
+}
+
+fieldset{
+	width: 172px;
+}
+
+li{
+	position: relative;
+	list-style: none;
+	float: left;
+	
+}
